@@ -1,30 +1,11 @@
-.container{
-    height: 100vh;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-}
-
 section {
-    height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    scroll-snap-align: start;
+    flex-direction: column;
+    font-size: x-large;
+    top: 20px;
 }
 
-.one {
-    background: blue;
-}
-
-.two {
-    background: green;
-}
-
-.three {
-    background: orange;
-}
-
-.four {
-    background: purple;
+button {
+    height: 2rem;
+    width: 5rem;
 }

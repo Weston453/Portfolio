@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Projects.css';
 
 const Projects = () => {
     return (
         <>
             <section className="projects" id='projects'>
-                <h1>Projects</h1>
+                <h1 className="section-title">Projects</h1>
             </section>
         </>
     )
